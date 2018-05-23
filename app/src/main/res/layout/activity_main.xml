@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="yazdaniscodelab.datepickerdialogforandroid.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Date is:"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:id="@+id/date_show"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Pick A Date"
+        android:layout_margin="20dp"
+        android:id="@+id/btn_date_picker"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
